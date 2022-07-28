@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>edTech</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles.css" />
     <!-- fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/28f1c92ae3.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- bootstrap css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <script src="https://kit.fontawesome.com/28f1c92ae3.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
         <!-- navbar starts -->
-      <div class="container">
+      <div class="container ">
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
           <div class="container-fluid">
             <a class="navbar-brand mb-4" href="#"
@@ -105,9 +106,9 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h1 class="fw-bold pt-sm-5 mb-3 c-title">
+                <h3 class="fw-bold pt-sm-5 mb-3 c-title">
                   Self Study Guideline
-                </h1>
+                </h3>
                 <p>
                   Improve your self study skill.The whole course is designed for
                   students who wants to improve their self study skills.
@@ -124,7 +125,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h1 class="fs-1 fw-bold mb-3">Interview Hacks</h1>
+                <h3 class="fw-bold pt-sm-5 mb-3 c-title">Interview Hacks</h3>
                 <p>
                   Prepare yourself for the Interview.Learn all the secrets of
                   self confidence and great interview.
@@ -141,10 +142,10 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h1 class="fs-1 fw-bold mb-3">Medical Admission Course 2022</h1>
+                <h3 class=" fw-bold pt-sm-5 mb-3 c-title">Medical Admission Course 2022</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Error, a.
+                  Specially designed Priority Based Learning. Detailed module consisting of 86 Live Class & Lecture Sheet, 9 Revision Class and   5 Sets full Model Test.
+
                 </p>
                 <button type="button" class="btn btn-primary fw-bold">
                   Get this Course
@@ -175,14 +176,18 @@
       <!-- carousel ends -->
     </header>
     <main>
+      <br>
+      <br>
 
     <!-- courses section -->
 
       <section class="container my-5 text-center" id="">
-        <h1>Discover Our Popular
+        <div class="my-5">
+          <h1 id="courses-title" class="fw-bold ">Discover Our Popular
             Courses</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore at adipisci laboriosam voluptate iusto quibusdam deserunt, distinctio natus quidem nesciunt dicta neque excepturi ducimus est ipsam explicabo perspiciatis numquam accusantium?
+            <p class="mb-5 w-50 mx-auto ">To help learners decide what to explore in this exciting time of technical change, we've compiled the top most popular courses across our website.
             </p>
+        </div>
 
             <!-- cards -->
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
@@ -196,12 +201,9 @@
               />
               <div class="text-center mx-auto p-3">
                 <h5 class="">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p class="card-text">This course covers the UX/UI Design fundamentals and teaches you a few advanced ideas so that both beginner and intermediate can benefit from the course.
                 </p>
-                <strong>$160</strong>
+                <strong class="text-info">price: 20$</strong>
               </div>
             </div>
           </div>
@@ -214,13 +216,9 @@
                 alt="..."
               />
               <div class="text-center mx-auto p-3">
-                <h5 class="">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <strong>$160</strong>
+                <h5 class="">Javascript Basic to advanced</h5>
+                <p class="card-text">Learn JavaScript with this complete course on the market. From beginner to advanced. Create portfolio projects that showcase your skills . </p>
+                <strong class="text-info">price: 80$</strong>
               </div>
             </div>
           </div>
@@ -233,13 +231,11 @@
                 alt="..."
               />
               <div class="text-center mx-auto p-3">
-                <h5 class="">Fundamental Of UI/UX Design</h5>
+                <h5 class="">Fullstack Web Development</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Become a full stack web developer and learn to design and develop powerful modern web applications using front end technologies and backend development.
                 </p>
-                <strong>$160</strong>
+                <strong class="text-info">price: 100$</strong>
               </div>
             </div>
           </div>
@@ -252,13 +248,10 @@
                 alt="..."
               />
               <div class="text-center mx-auto p-3">
-                <h5 class="">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="">Digital Marketing</h5>
+                <p class="card-text">Introduction to Digital Marketing and e-commerce. Search Engine Optimization , Social Media Marketing and Email Marketing.
                 </p>
-                <strong>$160</strong>
+                <strong class="text-info">price: 50$</strong>
               </div>
             </div>
           </div>
@@ -271,13 +264,10 @@
                 alt="..."
               />
               <div class="text-center mx-auto p-3">
-                <h5 class="">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="">Photography Basic Rules</h5>
+                <p class="card-text">Our beginner photography course will help you understand the basics of light and how your eye fixes lighting to produce better pictures.
                 </p>
-                <strong>$160</strong>
+                <strong class="text-info">price: 40$</strong>
               </div>
             </div>
           </div>
@@ -290,13 +280,10 @@
                 alt="..."
               />
               <div class="text-center mx-auto p-3">
-                <h5 class="">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="">Motion Graphics</h5>
+                <p class="card-text">A practical structured course on combining frame-by-frame animation and After Effects. You will learn how to create frame-by-frame animation.
                 </p>
-                <strong>$160</strong>
+                <strong class="text-info">price: 60$</strong>
               </div>
             </div>
           </div>
@@ -307,29 +294,54 @@
     </section>
 
     <!-- Ready to Join Starts -->
-    <section style="height: 250px;" class="container rounded-3 bg-info">
-        <div class="d-flex flex-lg-row flex-column justify-content-around align-items-center ">
-            <div>
-                <h2>Ready to join?</h2>
-            <p>It is a long established fact that a.</p>
-            </div>
-            <div class="btn btn-primary" id="see-more">Register</div>
+    <div class="row mx-auto text-center mb-5">
+      <div class="w-75 mx-auto p-5 border rounded bg-info d-flex flex-column flex-md-column flex-lg-row row-cols-1 row-cols-lg-2 row-cols-md-1 text-white justify-content-center align-items-center">
+        <div class="text-center">
+          <h1 style="font-family: 'Lexend';" class="fw-bold">Ready to Join</h1>
+          <p>It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout.</p>
         </div>
-    </section>
-    <!-- Ready to Join Ends -->
-    
+        <div class="text-center mx-auto">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-light fw-bold text-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Register
+</button>
 
-    <!--accordian start -->
-    <section class="text-center">
-      <h1 class="text-center mb-5 fw-bold">Frequently Asked Questions</h1>
-      <p class="text-center">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eaque
-        aperiam excepturi a, numquam sit incidunt cum hic laboriosam iusto.
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark fw-bold" id="exampleModalLabel">Success!!!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-dark fw-bold">
+        <p>Successfully Registered</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    
+    </div>
+  </div>
+    <!-- Ready to Join Ends -->
+
+    <!--accordion start -->
+    <section class="">
+      <h1 class="text-center mt-5 fw-bold">Frequently Asked Questions</h1>
+      <p class="text-center mt-4 w-50 mx-auto">Below you’ll find answers to the most common questions you may have. Also, please feel free to check out our Facebook & Google Advertising Guides & Academy. If you still can’t find the answer you’re looking for, just Contact us!
       </p>
 
-      <section class="container my-5 text-center mx-auto">
+      <section class="container my-5 text-center mx-auto w-50">
         <div class="row d-flex align-items-center my-5">
-          <div class="col-lg-6 col-s-12">
+          <div class="col-lg-12 col-s-12">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -415,22 +427,22 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
+                <h2 class="accordion-header" id="headingFour">
                   <button
                     class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
+                    data-bs-target="#collapseFour"
                     aria-expanded="false"
-                    aria-controls="collapseThree"
+                    aria-controls="collapseFour"
                   >
                     what is css box model
                   </button>
                 </h2>
                 <div
-                  id="collapseThree"
+                  id="collapseFour"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
+                  aria-labelledby="headingFour"
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
@@ -452,14 +464,14 @@
         </div>
       </section>
     </section>
-    <!--accordian ends -->
+    <!--accordion ends -->
 
     <!-- Trusted Companies starts -->
-<section class="text-center mx-auto my-5">
-    <h1 class="mb-5 fw-bold">
+<section class="text-center mx-auto my-5 mb-5 d-none d-lg-block">
+    <h1 class="my-4 fw-bold">
         Trusted by over 800+ companies
     </h1>
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-around mb-5">
         <img class="h-50" src="Images/company/company-1.png" alt="">
         <img class="h-50" src="Images/company/company-2.png" alt="">
         <img class="h-50" src="Images/company/company-3.png" alt="">
@@ -468,26 +480,27 @@
         <img class="h-50" src="Images/company/company-6.png" alt="">
     </div>
 </section>
-
+<br>
     <!-- Trusted Companies ends -->
 </main>
-    <!-- footer -->
-    <footer class="text-center bg-dark text-light">
+
+    <!-- Footer Starts -->
+    <footer class="text-center bg-dark text-light py-5">
       <h1>10Minutes School</h1>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <p>Lorem ipsum dolor sit.</p>
-      <p>Lorem, ipsum dolor.</p>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-solid fa-envelope"></i>
+      <p>Software Technology Park, Janata Tower, Level 2</p>
+      <p>Dhaka 1215, Bangladesh.</p>
+      <p>Privacy Policy | Terms of Use</p>
+      <div class="d-flex flex-row  justify-content-center px-2">
+      <i class="mx-2 fab fa-facebook"></i>
+      <i class="mx-2 fab fa-youtube"></i>
+      <i class="mx-2 fab fa-linkedin"></i>
+      <i class="mx-2 fab fa-instagram"></i>
+      <i class="mx-2 fab fa-twitter"></i>
+      </div>
     </footer>
+    <!-- Footer Ends -->
 
     <!-- bootstrap js -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
